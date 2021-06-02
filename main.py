@@ -46,7 +46,7 @@ eps = 1.
 FIG = False
 DEBUG = False
 
-n = [30, 20]
+n = [10, 20, 30]
 # n = [10, 20, 30, 40, 50, 60, 80, 100]
 
 for i in n:

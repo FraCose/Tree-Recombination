@@ -14,7 +14,7 @@ NeurIPS 2020, Available at https://github.com/FraCose/Recombination_Random_Algos
  Before running the ipython notebooks you HAVE TO run the main.py file. <br />
 
 ----------------------------------------------------
-Special Note to run the experiments
+Special notes to run the experiments
 ----------------------------------------------------
 - main.py is set to use a cuda gpu for the Monte Carlo computation. If a cuda gpu is not available you can use the function<br />
 simulate_HM() (uncomment/comment the relative lines in main.py)<br />
