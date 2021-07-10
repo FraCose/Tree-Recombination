@@ -1,7 +1,7 @@
 ---------------------------------------------------
 This Repository contains the Algorithms explained in<br />
 Cosentino, Abate, Oberhauser <br />
-"Multinomial Multivariate Universal Lattice for SDE approximations"<br />
+"Recombined Lattice-Tree Models for Diffusions Approximation"<br />
 ---------------------------------------------------
 
 The files are divided in the following way:<br />
