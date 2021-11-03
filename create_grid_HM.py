@@ -1,6 +1,6 @@
 # THIS REPOSITORY CONTAINS THE ALGORITHMS EXPLAINED IN THE WORK
 # Cosentino, Abate, Oberhauser
-# "Multinomial Multivariate Universal Lattice for SDE approximations"
+# "Markov Chain Approximations to Stochastic Differential Equations by Recombination on Lattice Trees"
 
 ####################################################################################
 # 

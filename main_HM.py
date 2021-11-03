@@ -1,10 +1,10 @@
 # THIS REPOSITORY CONTAINS THE ALGORITHMS EXPLAINED IN THE WORK
 # Cosentino, Abate, Oberhauser
-# "Multinomial Multivariate Universal Lattice for SDE approximations"
+# "Markov Chain Approximations to Stochastic Differential Equations by Recombination on Lattice Trees"
 
 ####################################################################################
 # 
-#  - This is the main file to be run to obtain the necessary files for the plots.
+#  - This is the main file to be run to obtain the necessary files for the plots relatively to the Heston Model.
 #
 #  - Consider changing the list n = [] if you want to obtain the same plot of the paper (more time is needed).
 #
@@ -27,7 +27,7 @@ from tqdm import tqdm
 import string
 from scipy.optimize import nnls
 import scipy.sparse as sp
-import create_grid as grid
+import create_grid_HM as grid
 import pickle
 
 x_0 = np.array([np.log(100),5.])
@@ -66,7 +66,7 @@ for i in n:
     prob = grid.final_prob(npMatrix, i)
     with open(name, 'wb') as f: np.save(f, prob)
 
-time_steps_MC = 900
+time_steps_MC = 1000
 x_0 = cp.array(x_0)
 X = grid.simulate_HM_cupy(x_0, time_steps_MC, T, mu_p, C, K, lambd, xi, rho)
 # X = grid.simulate_HM(x_0, time_steps_MC, T, mu_p, C, K, lambd, xi, rho)
